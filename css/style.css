@@ -47,3 +47,12 @@ main #projet{
     justify-content: space-between;
     margin-top: 30px;
 }
+main .project{
+    height: 300px;
+    width: 500px;
+    background: url(../img/Maquette1.PNG) no-repeat;
+}
+main .text{
+    height: inherit;
+    background-color: #fff;
+}
