@@ -36,3 +36,14 @@ main p{
     
     padding-left: 50px;
 }
+main img{
+    height: 300px;
+    width: 500px;
+}
+main #projet{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
