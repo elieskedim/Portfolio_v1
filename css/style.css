@@ -1,4 +1,16 @@
 html, body{height: 100%;font-family: 'Roboto', sans-serif;}
+
+#topContent #dl{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
 #topContent{
     background: url(../img/top_bkg.gif);
     height: 100%;
@@ -41,11 +53,14 @@ main img{
     width: 500px;
 }
 main #projet{
-    width: 90%;
+    width-max: 90%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30px;
+}
+
+#projet .project{
 }
 main .project{
     height: 300px;
